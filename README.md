@@ -71,7 +71,7 @@ Nguyen, H. H., Nguyen, N.M., Xie, C., Ahmadi, Z., Kudenko, D., Doan, T. N., & Ji
 - We prepared dataset for [experiments](experiments/ge-sc-data/source_code).
 
 ### Byte code
-- We used [EtherSolve](https://github.com/SeUniVr/EtherSolve) to build evm creation/runtime byte code from source code of smart contract. Then We used [cfg builder](https://github.com/crytic/evm_cfg_builder) to build CFGs for byte code.
+- We used Solc compilation of [Crytic-compile](https://github.com/crytic/crytic-compile) to compile EVM creation/runtime bytecode from the source code of smart contracts. Then we used [EtherSolve](https://github.com/SeUniVr/EtherSolve) to generate CFGs for bytecode.
 
 ## System Description
 
