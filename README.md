@@ -1,12 +1,27 @@
-# MANDO-HGT
+# MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection
 [![python](https://img.shields.io/badge/python-3.7.12-blue)](https://www.python.org/)
 [![slither](https://img.shields.io/badge/slither-0.8.0-orange)](https://github.com/crytic/slither)
 [![dgl](https://img.shields.io/badge/dgl-0.6.1-green)](https://www.dgl.ai/)
 
-[![overview](/assets/MANDO-HGT-overview.png)](https://github.com/MANDO-Project/ge-sc-transformer)
-[![byptecode](/assets/code_snippet_bytecode_cfg.png)](https://github.com/MANDO-Project/ge-sc-transformer)
+<p align="center">
+<img src="./assets/MANDO_HGT.png" alt="MANDO HGT Logo" width="225" height="225" class="center">
+</p>
 
-MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection in Source Code and Bytecode. This repository is the implement of MANDO-HGT which should be applicable to either source code or bytecode/binary form of software programs to cater to different situations where the source code of the software may or may not be available.
+
+# Overview
+This repository is the implementation of MANDO-HGT which should be applicable to either source code or bytecode/binary form of software programs to cater to different situations where the source code of the software may or may not be available.
+
+<p align="center">
+<img src="./assets/MANDO-HGT-overview.png" alt="MANDO HGT overview" class="center">
+</p>
+
+<p align="center">
+<img src="./assets/code_snippet_source_code_cg_cfg.png" alt="code snippet source code cg cfg" class="center">
+</p>
+
+<p align="center">
+<img src="./assets/code_snippet_bytecode_cfg.png" alt="code snippet bytecode cfg" width="546" height="462" class="center">
+</p>
 
 # Table of contents
 
