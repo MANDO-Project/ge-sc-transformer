@@ -23,6 +23,23 @@ This repository is the implementation of MANDO-HGT which should be applicable to
 <img src="./assets/code_snippet_bytecode_cfg.png" alt="code snippet bytecode cfg" width="546" height="462" class="center">
 </p>
 
+## Citation
+Nguyen, H. H., Nguyen, N.M., Xie, C., Ahmadi, Z., Kudenko, D., Doan, T. N., & Jiang, L. (2023, May). *MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection*. In Proceedings of 20th International Conference on Mining Software Repositories (MSR' 23), Melbourne, Australia, 2023. [Preprint](https://hoanghnguyen.com/assets/pdf/nguyen2023msr.pdf)
+
+```
+@inproceedings{nguyen2023msr,
+  author = {Nguyen, Hoang H. and Nguyen, Nhat-Minh and Xie, Chunyao and Ahmadi, Zahra and Kudenko, Daniel and Doan, Thanh-Nam and Jiang, Lingxiao},
+  title = {MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection},
+  year = {2023},
+  month = {5},
+  booktitle = {Proceedings of the 20th International Conference on Mining Software Repositories},
+  numpages = {13},
+  keywords = {vulnerability detection, smart contracts, source code, bytecode, heterogeneous graph learning, graph transformer},
+  location = {Melbourne, Australia},
+  series = {MSR '23}
+}
+```
+
 # Table of contents
 
 - [MANDO-HGT](#mando-hgt)
