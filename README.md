@@ -1,12 +1,44 @@
-# MANDO-HGT
+# MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection
 [![python](https://img.shields.io/badge/python-3.7.12-blue)](https://www.python.org/)
 [![slither](https://img.shields.io/badge/slither-0.8.0-orange)](https://github.com/crytic/slither)
 [![dgl](https://img.shields.io/badge/dgl-0.6.1-green)](https://www.dgl.ai/)
 
-[![overview](/assets/MANDO-HGT-overview.png)](https://github.com/MANDO-Project/ge-sc-transformer)
-[![byptecode](/assets/code_snippet_bytecode_cfg.png)](https://github.com/MANDO-Project/ge-sc-transformer)
+<p align="center">
+<img src="./assets/MANDO_HGT.png" alt="MANDO HGT Logo" width="225" height="225" class="center">
+</p>
 
-MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection in Source Code and Bytecode. This repository is the implement of MANDO-HGT which should be applicable to either source code or bytecode/binary form of software programs to cater to different situations where the source code of the software may or may not be available.
+
+# Overview
+This repository is the implementation of MANDO-HGT which should be applicable to either source code or bytecode/binary form of software programs to cater to different situations where the source code of the software may or may not be available.
+
+<p align="center">
+<img src="./assets/MANDO-HGT-overview.png" alt="MANDO HGT overview" class="center">
+</p>
+
+<p align="center">
+<img src="./assets/code_snippet_source_code_cg_cfg.png" alt="code snippet source code cg cfg" class="center">
+</p>
+
+<p align="center">
+<img src="./assets/code_snippet_bytecode_cfg.png" alt="code snippet bytecode cfg" width="546" height="462" class="center">
+</p>
+
+## Citation
+Nguyen, H. H., Nguyen, N.M., Xie, C., Ahmadi, Z., Kudenko, D., Doan, T. N., & Jiang, L. (2023, May). *MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection*. In Proceedings of 20th International Conference on Mining Software Repositories (MSR' 23), Melbourne, Australia, 2023. [Preprint](https://hoanghnguyen.com/assets/pdf/nguyen2023msr.pdf)
+
+```
+@inproceedings{nguyen2023msr,
+  author = {Nguyen, Hoang H. and Nguyen, Nhat-Minh and Xie, Chunyao and Ahmadi, Zahra and Kudenko, Daniel and Doan, Thanh-Nam and Jiang, Lingxiao},
+  title = {MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Detection},
+  year = {2023},
+  month = {5},
+  booktitle = {Proceedings of the 20th International Conference on Mining Software Repositories},
+  numpages = {13},
+  keywords = {vulnerability detection, smart contracts, source code, bytecode, heterogeneous graph learning, graph transformer},
+  location = {Melbourne, Australia},
+  series = {MSR '23}
+}
+```
 
 # Table of contents
 
@@ -39,7 +71,7 @@ MANDO-HGT: Heterogeneous Graph Transformers for Smart Contract Vulnerability Det
 - We prepared dataset for [experiments](experiments/ge-sc-data/source_code).
 
 ### Byte code
-- We used [EtherSolve](https://github.com/SeUniVr/EtherSolve) to build evm creation/runtime byte code from source code of smart contract. Then We used [cfg builder](https://github.com/crytic/evm_cfg_builder) to build CFGs for byte code.
+- We used Solc compilation of [Crytic-compile](https://github.com/crytic/crytic-compile) to compile EVM creation/runtime bytecode from the source code of smart contracts. Then we used [EtherSolve](https://github.com/SeUniVr/EtherSolve) to generate CFGs for bytecode.
 
 ## System Description
 
